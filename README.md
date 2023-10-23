@@ -1,12 +1,11 @@
-# WAV
-
+# Wav2Lip
 
 ---
 
 # Wav2Lip: Accurately Lip-syncing Videos
 
 ## Introduction
-Wav2Lip is a deep learning model that takes a video with a face and an audio clip as inputs and generates a video in which the face in the video is lip-syncing to the audio. This README provides instructions on how to run the Wav2Lip model and evaluate its performance.
+Wav2Lip is a deep learning model that takes a video with a face and an audio clip as inputs and generates a video in which the face in the video is lip-syncing to the audio. This README provides instructions on how to run the Wav2Lip model, evaluate its performance, and view sample outputs.
 
 ## Prerequisites
 
@@ -28,6 +27,14 @@ Wav2Lip is a deep learning model that takes a video with a face and an audio cli
    ```bash
    pip install ffmpeg-python mediapipe==0.8.11 batch-face
    ```
+
+## Sample Inputs and Outputs
+
+- Sample Input Video: `input.mp4`
+- Sample Input Audio: `Sync_voice_Input.wav`
+- Sample Output Video: `Sample_Output.mp4`
+
+You can view these samples to get a sense of the model's capabilities.
 
 ## Running the Model
 
